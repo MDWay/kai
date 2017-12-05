@@ -1,5 +1,5 @@
 $(()=>{
-  $('board').html(`
+  $('#board').html(`
 
 
 
