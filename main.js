@@ -9,6 +9,8 @@ $(()=>{
 
 `);
 });
+
+
 $(window).resize(()=>{
   $('#board').css({
     position: absolute,
@@ -16,3 +18,5 @@ $(window).resize(()=>{
     top: ($(window).height() - $('#board').outerHeight())/2,
   });
 });
+
+$(window).resize();
