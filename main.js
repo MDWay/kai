@@ -1,6 +1,4 @@
-const $ = document.querySelector;
-
-function onReady(){
+$(document).ready(()=>{
   $('board').content = `
 
 
@@ -10,4 +8,4 @@ function onReady(){
 
 
 `;
-}
+});
